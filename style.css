@@ -6,11 +6,16 @@ table {
 }
 
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
-    background-color: #114c5e;
-    color: #333333;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: #114c5e;
+        color: #333333;
+        background-image: url('https://media.istockphoto.com/id/2162279842/vector/abstract-technical-plexus-background-with-glowing-red-and-blue-connecting-lines-and-dots-and.jpg?s=612x612&w=0&k=20&c=r0ULdbZrUoNJy20BVtpOOMGq6Gqxxe6ekcGoQGmhZro='); /* Replace with your image URL */
+        background-size: cover; /* Scales the image to cover the entire screen */
+        background-position: center; /* Centers the image */
+        background-repeat: no-repeat; /* Prevents tiling */
+        background-attachment: fixed; /* Optional: Keeps the image fixed on scroll */
 }
 
 th, td {
