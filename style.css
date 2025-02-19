@@ -1,0 +1,36 @@
+
+table {
+    width: 80%; /* Adjust overall table width */
+    border-collapse: collapse;
+    background-color: rgb(99, 132, 166);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #114c5e;
+    color: #333333;
+}
+
+th, td {
+    border: 3px solid black;
+    padding: 10px;
+    text-align: left;
+    font-family: serif; /* Set font for table data */
+    font-size: 30px; /* Set font size */
+}
+
+th {
+    background-color: #0d0555; /* Set background color for table headings */
+    color: white; /* Set text color for better contrast */
+}
+
+/* Adjusting the width of the columns */
+th:first-child, td:first-child {
+    width: 30%; /* Set width for the Chapters column */
+}
+
+th:last-child, td:last-child {
+    width: 70%; /* Set wider width for the Notes column */
+}
